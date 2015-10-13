@@ -2,15 +2,34 @@
 ==================
 
 
-Aplikasi “Da-Tani” atau Data Tani adalah aplikasi yang akan membantu para petani, penternak dan nelayan atau mereka yang berminat dengan Agro Pertanian untuk mendapatkan maklumat setempat tentang statistik, trend dan jangkaan dalam bidang pertanian.
+Aplikasi Data Tani adalah aplikasi yang akan membantu para petani, penternak dan nelayan atau mereka yang berminat dengan Agro Pertanian untuk mendapatkan maklumat setempat tentang statistik, trend dan jangkaan dalam bidang pertanian.
 
+Aplikasi ini dibangunkan bersempena pertandingan "33 Jam HACKATHON: Data Terbuka Sektor Awam" anjuran 
+Unit Pemodenan Tadbiran dan Perancangan Pengurusan (MAMPU) dengan kerjasama Telekom Malaysia Berhad, 
+GITN Sdn Bhd dan Multimedia Development Corporation (MDeC).
 
-DA-TANI SKELETON (KENDO UI MOBILE) 
+Aplikasi ini dibangunkan oleh kumpulan #codehijau yang diangotai oleh 4 orang 
+penjawat awam daripada KDN, JPN & KPKT.
 
-Instruction to team #codehijau. 
+PENAFIAN
+==================
+Pihak pembangun Data Tani tidak bertanggungjawab terhadap sebarang kehilangan atau 
+kerosakan yang dialami kerana menggunakan maklumat dalam aplikasi ini. Data yang diambil dari 
+laman Data Terbuka Sektor Awam (data.gov.my) adalah hak milik Kerajaan Malaysia. 
+Terma dan Syarat penggunaannya boleh dirujuk di [pautan ini](http://data.gov.my/folders/others/Terma_Penggunaan_Data_Terbuka_01042015.pdf) 
 
-This is not a complete skeleton yet. I will update all the structure. But, basically it's already resembled our apps layout. 
+SCREENSHOTS
+==================
+![image](https://cloud.githubusercontent.com/assets/2078663/9829914/51b2f8b2-594c-11e5-9726-d849354355a2.png)
 
+![image](https://cloud.githubusercontent.com/assets/2078663/9829915/52a9edf2-594c-11e5-94f4-3ab3dae1d2d5.png)
+
+![image](https://cloud.githubusercontent.com/assets/2078663/9829913/51ad4642-594c-11e5-96c9-b4f3996aa2f6.png)
+
+![image](https://cloud.githubusercontent.com/assets/2078663/9829912/51567524-594c-11e5-8168-117d93e56373.png)
+
+Aplikasi ini dibangunkan dengan menggunakan Kendo UI Core (Mobile) dan Cordova. 
+Sila ikut arahan pemasangan (in English).
 
 ## Prerequisites to run/build app
 

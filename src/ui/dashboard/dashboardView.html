@@ -1,18 +1,106 @@
-<div id="dashbaardView" 
-data-role="view" 
-data-layout="default" 
+<div id="dashboardView" 
+     data-role="view"
+     >
 
->
-	<header data-role="header">
-		<div data-role="navbar">
-                    <!--<a data-align="left" class="primaryBtn" href="#addGroupView" data-icon="delete" data-role="button" data-bind="events:{click:forceNoneEditModeIfNeeded}"></a>-->
-			<!--<a data-align="left" class="editGroupBtn defaultBtn" data-role="button" data-bind="events:{click:editMode},invisible:hasGroups"><span data-bind="text: editButtonText">edit</span></a>-->
-			<span data-role="view-title">DA-TANI</span>
-			<!--<a data-align="right" class="primaryBtn" href="#addGroupView" data-icon="delete" data-role="button" data-bind="events:{click:forceNoneEditModeIfNeeded}"></a>-->
-		</div>
-	</header>
 
-	<div>dashboard</div>
-       
-    
+    <div class="panel panel-default bootcards-summary">
+
+
+        <div class="panel-heading" style="background:green;">
+            <h3 class="panel-title" style="text-align: center;color:#ffffff;">Aplikasi DATANI</h3>
+        </div>
+
+        <div class="panel-body">
+            <div class="row">
+
+                
+                
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#ikanListView">
+                        <i class="fa fa-3x icon-fish"  style="color:green;"></i>
+                        <h3><span style="font-size: 16px; font-weight: bolder; color:black;">IKAN</span></h3>
+                    </a>
+                </div>
+
+              
+                
+                
+                
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#kambingListView">
+                        <i class="fa fa-3x icon-goat"  style="color:green;"></i>
+                        <h3><span style="font-size: 16px; font-weight: bolder; color:black;">KAMBING</span></h3>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#bebiriListView">
+                        <i class="fa fa-3x icon-sheep-black"  style="color:green;"></i>
+                        <h3><span style="font-size: 16px; font-weight: bolder; color:black;">BEBIRI</span></h3>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#kerbauListView">
+                        <i class="fa fa-3x icon-bull-black"  style="color:green;"></i>
+                        <h3><span style="font-size: 16px; font-weight: bolder; color:black;">KERBAU</span></h3>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#lembuListView">
+                        <i class="fa fa-3x icon-cow-black"  style="color:green;"></i>
+                        <h3><span style="font-size: 16px; font-weight: bolder; color:black;">LEMBU</span></h3>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#babiListView">
+                        <i class="fa fa-3x icon-pig"  style="color:green;"></i>
+                        <h3><span style="font-size: 16px; font-weight: bolder; color:black;">KHINZIR</span></h3>
+                    </a>
+                </div>
+                
+
+              
+
+
+               
+
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#ptaniView">
+                        <i class="fa fa-3x icon-market"  style="color:green;"></i>
+                        <h3><span style="font-size: 16px; font-weight: bolder; color:black;">PASAR TANI</span></h3>
+                    </a>
+                </div>   
+
+
+               
+
+
+
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#faktaListView">
+                        <i class="fa fa-3x icon-human" style="color:green;"></i>
+                        <h3><span style="font-size: 16px; font-weight: bolder; color:black;">MENARIK !</span></h3>
+                    </a>
+                </div> 
+
+
+                <div class="col-xs-6 col-sm-4">
+                    <a class="bootcards-summary-item" href="#kreditListView">
+                        <i class="fa fa-3x icon-info" style="color:green;"></i>
+                        <h3><span style="font-size: 16px; font-weight: bolder; color:black;">INFO</span></h3>
+                    </a>
+                </div>  
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load('visualization', '1.0', {'packages': ['corechart','bar']});
+    </script>
 </div>

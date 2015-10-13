@@ -1,18 +1,58 @@
+<style>
+    .list-ptani{
+        padding: 8px;
+    }
+</style> ̰
 <div id="ptaniListView" 
-data-role="view" 
-data-layout="default" 
+     data-role="view" 
+     data-layout="default" 
 
->
-	<header data-role="header">
-		<div data-role="navbar">
-                    <!--<a data-align="left" class="primaryBtn" href="#addGroupView" data-icon="delete" data-role="button" data-bind="events:{click:forceNoneEditModeIfNeeded}"></a>-->
-			<!--<a data-align="left" class="editGroupBtn defaultBtn" data-role="button" data-bind="events:{click:editMode},invisible:hasGroups"><span data-bind="text: editButtonText">edit</span></a>-->
-			<span data-role="view-title">DA-TANI</span>
-			<!--<a data-align="right" class="primaryBtn" href="#addGroupView" data-icon="delete" data-role="button" data-bind="events:{click:forceNoneEditModeIfNeeded}"></a>-->
-		</div>
-	</header>
-
-	
-    <div>pasar tani</div>
+     >
+    <header data-role="header">
+        <div data-role="navbar">                                  
+            <a data-role="button" href="ptaniView"  data-icon="back" data-align="left" style="border: 1; background: inherit; "></a>
+            <span data-role="view-title">Pasar Tani</span>            
+        </div>
+    </header>
     
+    <div>
+        <h4>Senarai Pasar Tani</h4>
+        <select id="ptaniList" class="form-control">
+            <option value="o35xmrb">Mega</option>
+            <option value="oghrvzy">Johor</option>
+            <option value="o645oac">Kedah</option>
+            <option value="oj1qwb6">Kelantan</option>
+            <option value="onx9dk">Kuala Lumpur/Putrajaya</option>
+            <option value="o3hx28v">Melaka</option>
+            <option value="oqhtcj3">Negeri Sembilan</option>
+            <option value="ofv4tuj">Pahang</option>
+            <option value="o7zvud3">Perak</option>
+            <option value="oq2l8tc">Perlis</option>
+            <option value="ovnbpjj">Pulau Pinang</option>
+            <option value="oou3rr8">Sabah</option>
+            <option value="oizrg85">Sarawak</option>
+            <option value="o2afk3n">Selangor</option>
+            <option value="og812e7">Terenganu</option>
+        </select>
+        <input id="findPtaniList" type="text" class="form-control" placeholder="Carian/Tapisan...">
+        <br />
+    </div>
+    <div>
+        <div id="dataListPtani" class="list-group" style="width:95%; margin: 0 4px 2px 0"></div>
+    </div>
+</div>
+<div class="modal fade" id="ptaniCuacaModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">                
+                <h4 class="modal-title" id="myModalLabel">Maklumat Cuaca Terkini</h4>
+            </div>
+            <div class="modal-body text-center" id="cuacaPtani">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                
+                <span id="btnGoPtani"></span>
+            </div>
+        </div>
+    </div>
 </div>
